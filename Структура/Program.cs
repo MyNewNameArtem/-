@@ -22,12 +22,22 @@ namespace Структура
             //Console.WriteLine("\x23");
             // Изменил строку номер 23
             // Добавил Строку 24 (тест)
-            
 
-            Console.WriteLine(true);
-            Console.WriteLine(false);
 
-            Console.ReadKey();
+            //Console.WriteLine(true);
+            //Console.WriteLine(false);
+
+            //Console.ReadKey();
+
+            string Name = "Artem";
+            byte Age = 32;
+            bool Pet = true;
+            double Foot = 45.1;
+
+            Console.WriteLine("My name is " + Name);
+            Console.WriteLine("My Age " + Age);
+            Console.WriteLine("Do i have a pet  " + Pet);
+            Console.WriteLine("My shoe size is  " + Foot);
         }
     }
 }
