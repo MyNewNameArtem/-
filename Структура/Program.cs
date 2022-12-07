@@ -21,6 +21,7 @@ namespace Структура
             //Console.WriteLine("\u0040");
             //Console.WriteLine("\x23");
             // Изменил строку номер 23
+            // Добавил Строку 24 (тест)
             
 
             Console.WriteLine(true);
