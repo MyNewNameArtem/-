@@ -20,8 +20,8 @@ namespace Структура
 
             //Console.WriteLine("\u0040");
             //Console.WriteLine("\x23");
-
-            //Console.ReadKey();
+            // Изменил строку номер 23
+            
 
             Console.WriteLine(true);
             Console.WriteLine(false);
