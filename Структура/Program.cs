@@ -29,15 +29,19 @@ namespace Структура
 
             //Console.ReadKey();
 
-            string Name = "Artem";
-            byte Age = 32;
-            bool Pet = true;
-            double Foot = 45.1;
+            // string Name = "Artem";
+            //byte Age = 32;
+            //bool Pet = true;
+            //double Foot = 45.1;
 
-            Console.WriteLine("My name is " + Name);
-            Console.WriteLine("My Age " + Age);
-            Console.WriteLine("Do i have a pet  " + Pet);
-            Console.WriteLine("My shoe size is  " + Foot);
+            //Console.WriteLine("My name is " + Name);
+            //Console.WriteLine("My Age " + Age);
+            //Console.WriteLine("Do i have a pet  " + Pet);
+            //Console.WriteLine("My shoe size is  " + Foot);
+
+            Console.WriteLine("IntMin {0}",int.MinValue);
+            Console.WriteLine("IntMax {0}", int.MaxValue);
+                
         }
     }
 }
