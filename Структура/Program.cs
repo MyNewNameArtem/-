@@ -39,9 +39,14 @@ namespace Структура
             //Console.WriteLine("Do i have a pet  " + Pet);
             //Console.WriteLine("My shoe size is  " + Foot);
 
-            Console.WriteLine("IntMin {0}",int.MinValue);
-            Console.WriteLine("IntMax {0}", int.MaxValue);
+            //Console.WriteLine("IntMin {0}",int.MinValue);
+            //Console.WriteLine("IntMax {0}", int.MaxValue);
                 
         }
     }
 }
+
+//const byte Monday = 1;
+//const byte Tuesday = 2;
+
+
