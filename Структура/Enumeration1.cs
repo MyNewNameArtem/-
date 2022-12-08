@@ -25,6 +25,12 @@ class Enumeration1
         Sunday
     }
 
+enum ProgramData
+{
+    ProgramId = 123,
+    AuthorId = 567
+}
+
    enum Semaphore
    
    {
