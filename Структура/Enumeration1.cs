@@ -1,29 +1,27 @@
-﻿using System;
+﻿namespace Enumiration1
 
-class Enumeration1
 {
-    public static void Enumiration1Class (string[] args)
+    public class Enumeration1
     {
-
-        DaysOfWeek MyFavoriteDay;
-
-        MyFavoriteDay = DaysOfWeek.Friday;
-
-        Console.WriteLine(MyFavoriteDay);
-    }   
-}
-         
-
-   enum DaysOfWeek : byte
-    {
-        Monday = 1,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday,
-        Sunday
+        public const byte Monday = 1;
+        public const byte Tuesday = 2;
+        public const byte Wednesday = 3;
+        public const byte Thursday = 4;
+        public const byte Friday = 5;
+        public const byte Saturday = 6;
+        public const byte Sunday = 7;
     }
+}
+enum DaysOfWeek : byte
+{
+    Monday = 1,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
+}
 
 enum ProgramData
 {
@@ -31,10 +29,10 @@ enum ProgramData
     AuthorId = 567
 }
 
-   enum Semaphore
-   
-   {
-     Red = 100,
-     Yellow = 200,
-     Green = 300
-   }
+enum Semaphore
+
+{
+    Red = 100,
+    Yellow = 200,
+    Green = 300
+}

@@ -41,12 +41,19 @@ namespace Структура
 
             //Console.WriteLine("IntMin {0}",int.MinValue);
             //Console.WriteLine("IntMax {0}", int.MaxValue);
-                
+            
+            static void StepWeek1(Enumiration1 DaysofWeek)
+            {
+                DaysOfWeek MyFavoriteDay;
+
+                MyFavoriteDay = DaysOfWeek.Friday;
+
+                Console.WriteLine(MyFavoriteDay);
+            }
         }
     }
 }
 
 //const byte Monday = 1;
 //const byte Tuesday = 2;
-
 
