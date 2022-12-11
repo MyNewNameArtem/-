@@ -5,16 +5,16 @@ class Enumeration1
     public static void Enumiration1Class (string[] args)
     {
 
-        DaysOfWeek MyFavoriteDay;
+        DayOfWeek MyFavoriteDay;
 
-        MyFavoriteDay = DaysOfWeek.Friday;
+        MyFavoriteDay = DayOfWeek.Friday;
 
         Console.WriteLine(MyFavoriteDay);
     }   
 }
          
 
-   enum DaysOfWeek : byte
+   enum DayOfWeek : byte
     {
         Monday = 1,
         Tuesday,
